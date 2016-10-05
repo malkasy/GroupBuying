@@ -14,7 +14,7 @@ namespace GroupBuying.DAL.Model
         [Required]
         public string Name { get; set; }
         public string Description { get; set; }
-        public Category Category { get; set; }
+        public Category CategoryId { get; set; }
         public virtual ICollection<Item> Items { get; set; }
 
     }
