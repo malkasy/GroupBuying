@@ -51,9 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GroupBuyingContext.cs" />
-    <Compile Include="Migrations\201609131543423_InitialCreate.cs">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="Migrations\201609131543423_InitialCreate.cs" />
     <Compile Include="Migrations\201609131543423_InitialCreate.Designer.cs">
       <DependentUpon>201609131543423_InitialCreate.cs</DependentUpon>
     </Compile>
@@ -67,9 +65,6 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="web.xml" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201609131543423_InitialCreate.resx">
