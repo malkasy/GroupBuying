@@ -1,0 +1,11 @@
+C:\Users\מלכה שרה ושפרה\Source\Repos\GroupBuying\GroupBuying.DAL\GroupBuying.DAL\bin\Debug\GroupBuying.DAL.dll
+C:\Users\מלכה שרה ושפרה\Source\Repos\GroupBuying\GroupBuying.DAL\GroupBuying.DAL\bin\Debug\GroupBuying.DAL.pdb
+C:\Users\מלכה שרה ושפרה\Source\Repos\GroupBuying\GroupBuying.DAL\GroupBuying.DAL\bin\Debug\EntityFramework.dll
+C:\Users\מלכה שרה ושפרה\Source\Repos\GroupBuying\GroupBuying.DAL\GroupBuying.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\מלכה שרה ושפרה\Source\Repos\GroupBuying\GroupBuying.DAL\GroupBuying.DAL\bin\Debug\EntityFramework.xml
+C:\Users\מלכה שרה ושפרה\Source\Repos\GroupBuying\GroupBuying.DAL\GroupBuying.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\מלכה שרה ושפרה\Source\Repos\GroupBuying\GroupBuying.DAL\GroupBuying.DAL\obj\Debug\GroupBuying.DAL.dll
+C:\Users\מלכה שרה ושפרה\Source\Repos\GroupBuying\GroupBuying.DAL\GroupBuying.DAL\obj\Debug\GroupBuying.DAL.pdb
+C:\Users\מלכה שרה ושפרה\Source\Repos\GroupBuying\GroupBuying.DAL\GroupBuying.DAL\bin\Debug\GroupBuying.DAL.dll.config
+C:\Users\מלכה שרה ושפרה\Source\Repos\GroupBuying\GroupBuying.DAL\GroupBuying.DAL\obj\Debug\GroupBuying.DAL.Migrations.InitialCreate.resources
+C:\Users\מלכה שרה ושפרה\Source\Repos\GroupBuying\GroupBuying.DAL\GroupBuying.DAL\obj\Debug\GroupBuying.DAL.csproj.GenerateResource.Cache
