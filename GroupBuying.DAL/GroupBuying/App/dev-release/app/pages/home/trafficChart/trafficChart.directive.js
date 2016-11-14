@@ -5,7 +5,7 @@
 (function () {
   'use strict';
 
-  angular.module('BlurAdmin.pages.dashboard')
+    angular.module('CollectiveP.pages.home')
       .directive('trafficChart', trafficChart);
 
   /** @ngInject */
@@ -13,7 +13,7 @@
     return {
       restrict: 'E',
       controller: 'TrafficChartCtrl',
-      templateUrl: 'app/pages/dashboard/trafficChart/trafficChart.html'
+      templateUrl: 'app/pages/home/trafficChart/trafficChart.html'
     };
   }
 })();

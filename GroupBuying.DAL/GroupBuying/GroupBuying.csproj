@@ -5153,38 +5153,12 @@
     <Content Include="App\dev-release\app\app.js" />
     <Content Include="App\dev-release\app\auth.css" />
     <Content Include="App\dev-release\app\main.css" />
-    <Content Include="App\dev-release\app\pages\dashboard\blurFeed\blurFeed.directive.js" />
-    <Content Include="App\dev-release\app\pages\dashboard\blurFeed\blurFeed.html" />
-    <Content Include="App\dev-release\app\pages\dashboard\blurFeed\BlurFeedCtrl.js" />
-    <Content Include="App\dev-release\app\pages\dashboard\calendar\dashboardCalendar.js" />
-    <Content Include="App\dev-release\app\pages\dashboard\dashboard.html" />
-    <Content Include="App\dev-release\app\pages\dashboard\dashboard.module.js" />
-    <Content Include="App\dev-release\app\pages\dashboard\dashboardCalendar\dashboardCalendar.directive.js" />
-    <Content Include="App\dev-release\app\pages\dashboard\dashboardCalendar\dashboardCalendar.html" />
-    <Content Include="App\dev-release\app\pages\dashboard\dashboardCalendar\DashboardCalendarCtrl.js" />
-    <Content Include="App\dev-release\app\pages\dashboard\dashboardLineChart\dashboardLineChart.directive.js" />
-    <Content Include="App\dev-release\app\pages\dashboard\dashboardLineChart\dashboardLineChart.html" />
-    <Content Include="App\dev-release\app\pages\dashboard\dashboardLineChart\DashboardLineChartCtrl.js" />
-    <Content Include="App\dev-release\app\pages\dashboard\dashboardMap\dashboardMap.directive.js" />
-    <Content Include="App\dev-release\app\pages\dashboard\dashboardMap\dashboardMap.html" />
-    <Content Include="App\dev-release\app\pages\dashboard\dashboardMap\DashboardMapCtrl.js" />
-    <Content Include="App\dev-release\app\pages\dashboard\dashboardPieChart\dashboardPieChart.directive.js" />
-    <Content Include="App\dev-release\app\pages\dashboard\dashboardPieChart\dashboardPieChart.html" />
-    <Content Include="App\dev-release\app\pages\dashboard\dashboardPieChart\DashboardPieChartCtrl.js" />
-    <Content Include="App\dev-release\app\pages\dashboard\dashboardTodo\dashboardTodo.directive.js" />
-    <Content Include="App\dev-release\app\pages\dashboard\dashboardTodo\dashboardTodo.html" />
-    <Content Include="App\dev-release\app\pages\dashboard\dashboardTodo\DashboardTodoCtrl.js" />
-    <Content Include="App\dev-release\app\pages\dashboard\pieCharts\dashboardPieChart.js" />
-    <Content Include="App\dev-release\app\pages\dashboard\popularApp\popularApp.directive.js" />
-    <Content Include="App\dev-release\app\pages\dashboard\popularApp\popularApp.html" />
-    <Content Include="App\dev-release\app\pages\dashboard\trafficChart\trafficChart.directive.js" />
-    <Content Include="App\dev-release\app\pages\dashboard\trafficChart\trafficChart.html" />
-    <Content Include="App\dev-release\app\pages\dashboard\trafficChart\TrafficChartCtrl.js" />
-    <Content Include="App\dev-release\app\pages\dashboard\weather\weather.directive.js" />
-    <Content Include="App\dev-release\app\pages\dashboard\weather\weather.html" />
-    <Content Include="App\dev-release\app\pages\dashboard\weather\WeatherCtrl.js" />
     <Content Include="App\dev-release\app\pages\home\home.html" />
     <Content Include="App\dev-release\app\pages\home\home.module.js" />
+    <Content Include="App\dev-release\app\pages\home\homeCtrl.js" />
+    <Content Include="App\dev-release\app\pages\home\trafficChart\trafficChart.directive.js" />
+    <Content Include="App\dev-release\app\pages\home\trafficChart\trafficChart.html" />
+    <Content Include="App\dev-release\app\pages\home\trafficChart\TrafficChartCtrl.js" />
     <Content Include="App\dev-release\app\pages\pages.module.js" />
     <Content Include="App\dev-release\app\theme\components\backTop\backTop.directive.js" />
     <Content Include="App\dev-release\app\theme\components\backTop\backTop.html" />
@@ -6218,6 +6192,12 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GroupBuying.DAL\GroupBuying.DAL.csproj">
+      <Project>{4ed67141-a402-4a2a-8bc4-a0d2a1232a96}</Project>
+      <Name>GroupBuying.DAL</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -5,14 +5,16 @@
       .config(routeConfig);
 
   /** @ngInject */
-  function routeConfig() {
+  function routeConfig($stateProvider) {
   $stateProvider
         .state('home', {
             url: '/home',
             templateUrl: 'app/pages/home/home.html',
             title: 'Home',
+            controller: "HomeCtrl",
           sidebarMeta: {
-            order: 800,
+            order: 100,
+            icon: 'ion-android-home'
           },
         });
   }

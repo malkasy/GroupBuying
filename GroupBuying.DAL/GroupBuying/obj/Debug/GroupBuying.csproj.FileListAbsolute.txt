@@ -178,3 +178,5 @@ C:\Users\מלכה שרה ושפרה\Source\Repos\GroupBuying\GroupBuying.DAL\Gro
 C:\Users\מלכה שרה ושפרה\Source\Repos\GroupBuying\GroupBuying.DAL\GroupBuying\obj\Debug\GroupBuying.csprojResolveAssemblyReference.cache
 C:\Users\מלכה שרה ושפרה\Source\Repos\GroupBuying\GroupBuying.DAL\GroupBuying\obj\Debug\GroupBuying.dll
 C:\Users\מלכה שרה ושפרה\Source\Repos\GroupBuying\GroupBuying.DAL\GroupBuying\obj\Debug\GroupBuying.pdb
+C:\Users\מלכה שרה ושפרה\Source\Repos\GroupBuying\GroupBuying.DAL\GroupBuying\bin\GroupBuying.DAL.dll
+C:\Users\מלכה שרה ושפרה\Source\Repos\GroupBuying\GroupBuying.DAL\GroupBuying\bin\GroupBuying.DAL.pdb
