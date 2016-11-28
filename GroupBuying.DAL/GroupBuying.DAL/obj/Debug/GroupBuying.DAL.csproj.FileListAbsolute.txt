@@ -10,3 +10,14 @@ S:\malka sara and tzipi\groupb\GroupBuying.DAL\GroupBuying.DAL\obj\Debug\GroupBu
 S:\malka sara and tzipi\groupb\GroupBuying.DAL\GroupBuying.DAL\obj\Debug\GroupBuying.DAL.pdb
 S:\malka sara and tzipi\groupb\GroupBuying.DAL\GroupBuying.DAL\obj\Debug\GroupBuying.DAL.Migrations.InitialCreate.resources
 S:\malka sara and tzipi\groupb\GroupBuying.DAL\GroupBuying.DAL\obj\Debug\GroupBuying.DAL.csproj.GenerateResource.Cache
+D:\Users\מלכה שרה ושפרה\Documents\CollectiveP\GroupBuying.DAL\GroupBuying.DAL\bin\Debug\GroupBuying.DAL.dll.config
+D:\Users\מלכה שרה ושפרה\Documents\CollectiveP\GroupBuying.DAL\GroupBuying.DAL\bin\Debug\GroupBuying.DAL.dll
+D:\Users\מלכה שרה ושפרה\Documents\CollectiveP\GroupBuying.DAL\GroupBuying.DAL\bin\Debug\GroupBuying.DAL.pdb
+D:\Users\מלכה שרה ושפרה\Documents\CollectiveP\GroupBuying.DAL\GroupBuying.DAL\bin\Debug\EntityFramework.dll
+D:\Users\מלכה שרה ושפרה\Documents\CollectiveP\GroupBuying.DAL\GroupBuying.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Users\מלכה שרה ושפרה\Documents\CollectiveP\GroupBuying.DAL\GroupBuying.DAL\bin\Debug\EntityFramework.xml
+D:\Users\מלכה שרה ושפרה\Documents\CollectiveP\GroupBuying.DAL\GroupBuying.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Users\מלכה שרה ושפרה\Documents\CollectiveP\GroupBuying.DAL\GroupBuying.DAL\obj\Debug\GroupBuying.DAL.Migrations.InitialCreate.resources
+D:\Users\מלכה שרה ושפרה\Documents\CollectiveP\GroupBuying.DAL\GroupBuying.DAL\obj\Debug\GroupBuying.DAL.csproj.GenerateResource.Cache
+D:\Users\מלכה שרה ושפרה\Documents\CollectiveP\GroupBuying.DAL\GroupBuying.DAL\obj\Debug\GroupBuying.DAL.dll
+D:\Users\מלכה שרה ושפרה\Documents\CollectiveP\GroupBuying.DAL\GroupBuying.DAL\obj\Debug\GroupBuying.DAL.pdb

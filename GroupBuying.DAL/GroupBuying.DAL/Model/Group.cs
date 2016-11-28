@@ -20,6 +20,8 @@ namespace GroupBuying.DAL.Model
         public User User { get; set; }
         public int Status { get; set; }
         public Item Item { get; set; }
+        public int MaxMembers { get; set; }
+        public int MinMembers { get; set; }
         public virtual ICollection<Group> Groups { get; set; }
     }
 }

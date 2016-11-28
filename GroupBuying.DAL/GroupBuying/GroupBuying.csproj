@@ -239,6 +239,11 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201611251240293_addItemProp.cs" />
+    <Compile Include="Migrations\201611251240293_addItemProp.Designer.cs">
+      <DependentUpon>201611251240293_addItemProp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -5458,12 +5463,19 @@
     <Content Include="App\dev-release\lib\xeditable.css" />
     <Content Include="App\dev-release\lib\xeditable.js" />
     <Content Include="App\dev-release\reg.html" />
+    <Content Include="App\dev-release\sass\main.css">
+      <DependentUpon>main.scss</DependentUpon>
+    </Content>
+    <Content Include="App\dev-release\sass\main.min.css">
+      <DependentUpon>main.css</DependentUpon>
+    </Content>
     <Content Include="Areas\HelpPage\HelpPage.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Img\tea800.jpg" />
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -5489,6 +5501,7 @@
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="App\bower_components\amcharts-stock\.bower.json" />
     <Content Include="App\bower_components\amcharts-stock\bower.json" />
@@ -6154,6 +6167,10 @@
     <Content Include="App\dev-release\sass\theme\_socicon.scss" />
     <Content Include="App\dev-release\sass\theme\_table.scss" />
     <Content Include="App\dev-release\sass\theme\_tree.scss" />
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </None>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -6165,7 +6182,9 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -6198,6 +6217,11 @@
       <Project>{4ed67141-a402-4a2a-8bc4-a0d2a1232a96}</Project>
       <Name>GroupBuying.DAL</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201611251240293_addItemProp.resx">
+      <DependentUpon>201611251240293_addItemProp.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

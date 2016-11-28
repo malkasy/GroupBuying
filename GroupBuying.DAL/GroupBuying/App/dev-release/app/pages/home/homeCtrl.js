@@ -10,8 +10,16 @@
 
     /** @ngInject */
     function HomeCtrl($scope, baConfig,$http) {
-        $http.get("Home/Index").success(function (data, status) {
-            $scope.name = data.firstname;
+        $http({
+            url: '/home/index',
+            method: 'GET'
+        }).then(function (data, status) {
+            $scope.items = data.data;
+        },
+        function (response) {
+            $scope.res = response;
+
         });
+       
     }
 })();

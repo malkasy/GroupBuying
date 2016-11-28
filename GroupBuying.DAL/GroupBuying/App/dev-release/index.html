@@ -45,12 +45,12 @@
 <body >
    
         <div class="body-bg"></div>
-        <main ng-if="$pageFinishedLoading" ng-class="{ 'menu-collapsed': $baSidebarService.isMenuCollapsed() }">
-
-            <ba-sidebar></ba-sidebar>
-            <div class="col-md-12">
+        <main class="container" ng-if="$pageFinishedLoading" ng-class="{ 'menu-collapsed': $baSidebarService.isMenuCollapsed() }">
+            <div class="">
                 <page-top></page-top>
             </div>
+            <ba-sidebar></ba-sidebar>
+            
             <div class="al-main">
                 <div class="al-content">
                     <content-top></content-top>
@@ -111,7 +111,7 @@
 <script src="../bower_components/leaflet/dist/leaflet-src.js"></script>
 <script src="../bower_components/angular-progress-button-styles/dist/angular-progress-button-styles.min.js"></script>
 <script src="../bower_components/angular-ui-router/release/angular-ui-router.js"></script>
-<script src="../bower_components/angular-chart.js/dist/angular-chart.js"></script>
+<script src="../bower_comFponents/angular-chart.js/dist/angular-chart.js"></script>
 <script src="../bower_components/chartist/dist/chartist.min.js"></script>
 <script src="../bower_components/angular-chartist.js/dist/angular-chartist.js"></script>
 <script src="../bower_components/raphael/raphael.js"></script>

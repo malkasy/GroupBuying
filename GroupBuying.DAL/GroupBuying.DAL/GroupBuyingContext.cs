@@ -19,7 +19,7 @@ namespace GroupBuying.DAL
         public DbSet<Category> Categories { get; set; }
 
         public GroupBuyingContext()
-            : base("name=GroupBuying")
+            : base("GroupBuying")
         {
             //write Sql Scripts in Debug
             Database.Log = s => Debug.WriteLine(s);

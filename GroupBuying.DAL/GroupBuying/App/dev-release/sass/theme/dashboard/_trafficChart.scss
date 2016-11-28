@@ -49,9 +49,9 @@
 }
 
 .traffic-chart {
-  width: 300px;
+  width: 150px!important;
   position: relative;
-  min-height: 300px;
+  min-height: 150px!important;
   float: left;
 }
 
@@ -81,7 +81,10 @@
     }
   }
 }
-
+#chart-area{
+    height: 150px!important;
+    width: 150px!important;
+}
 .canvas-holder {
   display: inline-block;
   width: 300px;
